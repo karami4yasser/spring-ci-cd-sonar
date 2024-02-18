@@ -2,8 +2,11 @@
 
 1. Make sure you have the `docker.sock` in `/var/run/docker.sock`
 2. Run : `docker-compose up -d`
-3. when jenkins starts ,Make sure to install the suggested plugins (we will need Git and maven plugins)
-4. In jenkins pluginManager,  install `Docker` Plugin
+3. Make sure to create a project in sonar with the name : `springApp`
+4. when jenkins starts ,Make sure to install the suggested plugins (we will need Git and maven plugins)
+5. Create a Secret text Credentials with the Id `sonar_token` contains your Sonar User Token
+6. Create a Secret userName and password with the Id `DOCKER_HUB_CRED` conatains your docker hub `userName` and `Access Token`
+7. In jenkins pluginManager,  install `Docker` Plugin
 
 <img width="458" alt="Screenshot 2024-02-18 at 03 35 40" src="https://github.com/karami4yasser/spring-ci-cd-sonar/assets/83478271/a6040ebd-76f2-491f-99e5-6de486fd8e1d">
 
