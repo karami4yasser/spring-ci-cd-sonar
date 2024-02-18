@@ -6,9 +6,9 @@
 4. In jenkins dashboard install `Docker` Plugin
 5. Make sure you have the following tools configuration `http://localhost:8080/manage/configureTools/` :
 
-![Screenshot 2024-02-18 at 03.19.26.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F2z%2Fhmx7jq5s29qbk_gs7khry58h0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_sGpffQ%2FScreenshot%202024-02-18%20at%2003.19.26.png)
+<img width="609" alt="Screenshot 2024-02-18 at 03 33 16" src="https://github.com/karami4yasser/spring-ci-cd-sonar/assets/83478271/2a010e91-9eec-4265-8e1e-c64069d6e98a">
 
-![Screenshot 2024-02-18 at 03.20.10.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F2z%2Fhmx7jq5s29qbk_gs7khry58h0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_JYPPTG%2FScreenshot%202024-02-18%20at%2003.20.10.png)
 
 6. Create a new jenkins Pipeline , and Make sure to have the following Git configuration
-![Screenshot 2024-02-18 at 03.21.43.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F2z%2Fhmx7jq5s29qbk_gs7khry58h0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_heFMRU%2FScreenshot%202024-02-18%20at%2003.21.43.png)
+
+<img width="1016" alt="Screenshot 2024-02-18 at 03 32 38" src="https://github.com/karami4yasser/spring-ci-cd-sonar/assets/83478271/58f244d2-40aa-430c-a247-71937130f1cc">
