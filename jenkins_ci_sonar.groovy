@@ -63,7 +63,9 @@ pipeline {
             steps{
                 script{
                      withCredentials([usernamePassword(credentialsId: 'DOCKER_HUB_CRED', passwordVariable: 'DOCKER_HUB_ACCESSTOKEN', usernameVariable: 'DOCKER_HUB_USERNAME')]) {
-                        sh "docker run -p 8400:8400 docker.io/${DOCKER_HUB_USERNAME}/springciapp:latest"
+                        sh 'docker stop springci'
+                        sh 'docker rm springci'
+                        sh "docker run -d --name springci -p 8400:8400 docker.io/${DOCKER_HUB_USERNAME}/springciapp:latest"
                     }
                 }
             }
